@@ -8,10 +8,6 @@ Route::get('/', function () {
 });
 
 
-
-
-
-
-
+Route::get('/products', 'RatingController@index');
 
 Route::post('/login', [AuthController::class, 'login']);
